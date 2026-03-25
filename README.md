@@ -11,7 +11,7 @@ Streamlit app that simulates a Pokemon battle using live data from the [PokeAPI]
 
 ## Deployed App
 
-[Click here to open the app](https://TODO-add-streamlit-url.streamlit.app)
+[Click here to open the app](https://pokemon-combat-simulator-group-3.streamlit.app/)
 
 ## How to Run Locally
 
