@@ -11,7 +11,7 @@ Streamlit app that simulates a Pokemon battle using live data from the [PokeAPI]
 
 ## Deployed App
 
-[Click here to open the app](https://TODO-add-streamlit-url.streamlit.app)
+[Click here to open the app](https://pokemon-combat-simulator-group-3.streamlit.app/)
 
 ## How to Run Locally
 
@@ -35,8 +35,10 @@ pokemon-combat-simulator/
 
 ## Contributions
 
-- Member 1: Andrea Sabatés
-- Member 2: Cesar González
-- Member 3: Ricardo Velásquez
-- Member 4: Tina Jannasch
-- Member 5: Martí Solà
+| Member | Responsibility |
+|--------|---------------|
+| **César González** | API integration — PokeAPI calls (`/pokemon/`, `/move/`, `/type/`), `@st.cache_data`, error handling |
+| **Andrea Sabatés** | Pandas usage — stat comparison DataFrame con `.melt()`, battle log DataFrame, HP over time DataFrame |
+| **Martí Solà** | Dashboard layout — Pokemon selection, sprites display, move selection widgets, `st.columns` layout |
+| **Tina Jannasch** | Battle logic & charts — battle simulation, Plotly grouped bar chart, HP over time line chart |
+| **Ricardo Velásquez** | Repo & deployment — `requirements.txt`, Streamlit deployment, repo structure and README |
